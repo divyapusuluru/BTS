@@ -665,7 +665,7 @@ img {
     text-align: center;
     position: relative;
     z-index: 1;
-    padding: 30px 15px;
+    padding: 20px 15px;
     background-color: #000;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms; }
@@ -676,14 +676,14 @@ img {
       transition-duration: 500ms; }
     .single-event-area .event-text .event-meta-data {
       position: relative;
-      margin-bottom: 30px; }
+      margin-bottom: 5px; }
       .single-event-area .event-text .event-meta-data a {
         -webkit-transition-duration: 500ms;
         transition-duration: 500ms;
         position: relative;
         z-index: 1;
         color: #fff;
-        font-size: 15px;
+        font-size: 10px;
         font-weight: 400;
         display: inline-block;
         padding-right: 29px; }
