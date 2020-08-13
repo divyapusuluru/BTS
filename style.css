@@ -997,8 +997,8 @@ body {overflow-x: hidden;}
   padding: 15px 30px 20px;
   border: 1px solid #363636; }
   .song-play-area .song-name p {
-    color: #b8b8b8;
-    margin-bottom: 5px; }
+    color: white;
+    margin-bottom: 2px; }
   .song-play-area .audioplayer {
     margin: 0;
     padding: 0;
