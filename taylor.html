@@ -61,6 +61,7 @@
                                     <li><a href="index.html">Home</a></li>
                                     <li><a href="#about">About</a></li>
                                     <li><a href="#albums">Albums</a></li>
+                                    <li><a href="#milestones">Milestones</a></li>
                                     <li><a href="#">Pages</a>
                                         <ul class="dropdown">
                                             <li><a href="index.html">Home</a></li>
@@ -115,11 +116,38 @@
         </section><br>
     <div class="container">
        <center><img src="img/taylor/tay-about.jpg" height="400px" width="300px"></center> 
-        <p><p>Taylor Alison Swift (born December 13, 1989) is an American singer-songwriter. Her narrative songwriting, which often centers around her personal life, has received widespread media coverage. Born in West Reading, Pennsylvania, Swift relocated to Nashville, Tennessee in 2004 to pursue a career in country music. At age 14, she became the youngest artist signed by the Sony/ATV Music publishing house, and at age 15, she signed her first record deal. Her 2006 eponymous debut studio album was the longest-charting album of the 2000s on the Billboard 200. Its third single, "Our Song", made her the youngest person to single-handedly write and perform a number-one song on the Billboard Country Airplay chart. Swift's breakthrough second studio album, Fearless (2008), won four Grammy Awards, including Album of the Year, and was certified Diamond by the Recording Industry Association of America. It yielded the Billboard Hot 100 top-five singles "Love Story" and "You Belong with Me".</p>
-    </p>
-   <center>  <a data-animation="fadeInUp" data-delay="500ms" href="https://en.wikipedia.org/wiki/Folklore_(Taylor_Swift_album)" class="btn oneMusic-btn mt-50">Discover More 🙂 <i class="fa fa-angle-double-right"></i></a>
+        <p> 
+            Taylor Swift is that rarest of pop phenomena: a superstar who managed to completely cross over from country to the mainstream. Others have performed similar moves -- notably,  and  both became enduring pop-culture icons based on their '70s work -- but Swift shed her country roots like they were a second skin; it was a necessary molting to reveal she was perhaps the sharpest, savviest populist singer/songwriter of her generation, one who could harness the zeitgeist, make it personal and, just as impressively, perform the reverse. These skills were evident on her earliest hits, especially the neo-tribute "Tim McGraw," but her second album, 2008's Fearless, showcased a songwriter discovering who she was and, in the process, finding a mass audience. Fearless wound up having considerable legs not only in the U.S., where it racked up six platinum singles on the strength of the Top Ten hits "Love Story" and "You Belong with Me," but throughout the world, performing particularly well in the U.K., Canada, and Australia. Speak Now, delivered almost two years later, consolidated that success and moved Swift into the stratosphere of superstardom. Her popularity only increased over her next three albums -- Red (2012), 1989 (2014), Reputation (2017) -- and found her moving assuredly into a pop realm where she already belonged.
+            <span id="dots">...</span>
+            <span id="more">
+
+This sense of confidence had been apparent in Taylor Swift since the beginning. The daughter of two bankers -- her father, Scott Kingsley Swift, worked at Merrill Lynch; her mother, Andrea, spent time as a mutual fund marketing executive -- Swift was born in Reading, Pennsylvania, and raised in suburban Wyomissing. She began to show interest in music at the age of nine, and  wound up as her biggest formative influence. Swift started to work regularly at local talent contests, eventually winning a chance to open for . Soon, she learned how to play guitar and began writing songs, signing a music management deal with Dan Dymtrow; her family relocated to Nashville with the intent of furthering her music career. She was just 14 years old but on the radar of the music industry, signing a development deal with  in 2004. Swift sharpened her skills with a variety of professional songwriters, forming the strongest connections with . Taylor's original songs earned her a deal with Sony/ATV Music Publishing, but not long after that 2004 deal she parted ways with Dymtrow and , all with the intent of launching her recording career now, not later.
+
+
+Things started moving swiftly once Swift came to the attention of Scott Borchetta, a former  exec about to launch . Borchetta saw Swift perform at a songwriters showcase at the Bluebird Cafe and he signed her to  in 2005; shortly afterward, she started work on her debut with producer Nathan Chapman, who'd previously helmed demos for Taylor. Boasting original song credits on every one of the record's 11 songs (she penned three on her own), Taylor Swift appeared in October 2006 to strong reviews and Swift made sure to work the album hard, appearing at every radio or television event offered and marshaling a burgeoning fan base through the use of MySpace. "Tim McGraw," the first song from the album, did well, but "Teardrops on My Guitar" and "Our Song" did better on both the pop and country charts, where she racked up five consecutive Top Ten singles. Other successes followed in the wake of the debut -- a Grammy nomination for Best New Artist (she lost to ), stopgap EPs of Christmas songs -- but Swift concentrated on delivering her sophomore set, Fearless.
+</span>
+     
+</p>
+   <center>  <a data-animation="fadeInUp" data-delay="500ms" onclick="myFunction()" id="btn oneMusic-btn mt-50" class="btn oneMusic-btn mt-50">Read More 🙂 <i class="fa fa-angle-double-right"></i></a>
    </center> 
     </div>
+    <script>
+        function myFunction() {
+          var dots = document.getElementById("dots");
+          var moreText = document.getElementById("more");
+          var btnText = document.getElementById("btn oneMusic-btn mt-50");
+        
+          if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more"; 
+            moreText.style.display = "none";
+          } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less"; 
+            moreText.style.display = "inline";
+          }
+        }
+        </script>
     <!-- ##### Breadcumb Area Start ##### -->
  
     <!-- ##### Breadcumb Area End ##### -->
@@ -139,7 +167,7 @@
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="single-event-area mb-30">
                     <div class="event-thumbnail">
-                        <a href="https://www.youtube.com/playlist?list=OLAK5uy_nWgO-2lNMsx90439Yx0xTWCGIktUc74e8" class="btn see-more-btn"> <img src="img/taylor/t2.jpg" alt=""></a>
+                        <a href="https://www.youtube.com/playlist?list=OLAK5uy_nWgO-2lNMsx90439Yx0xTWCGIktUc74e8" > <img src="img/taylor/t2.jpg" alt=""></a>
                     </div>
                     <div class="event-text">
                         <a href="https://www.youtube.com/playlist?list=OLAK5uy_nWgO-2lNMsx90439Yx0xTWCGIktUc74e8" class="btn see-more-btn"><h4>FolkLore</h4></a>
@@ -151,7 +179,7 @@
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="single-event-area mb-30">
                     <div class="event-thumbnail">
-                        <a href="https://www.youtube.com/playlist?list=OLAK5uy_nHHWc9S0Nw7oLyLYBptkJ4DpkQeoL1Igw" class="btn see-more-btn"><img src="img/taylor/lover.jpg" alt=""></a>
+                        <a href="https://www.youtube.com/playlist?list=OLAK5uy_nHHWc9S0Nw7oLyLYBptkJ4DpkQeoL1Igw"><img src="img/taylor/lover.jpg" alt=""></a>
                     </div>
                     <div class="event-text">
                         <a href="https://www.youtube.com/playlist?list=OLAK5uy_nHHWc9S0Nw7oLyLYBptkJ4DpkQeoL1Igw" class="btn see-more-btn"><h4>Lover</h4></a>
@@ -163,7 +191,7 @@
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="single-event-area mb-30">
                     <div class="event-thumbnail">
-                        <a href="https://www.youtube.com/playlist?list=OLAK5uy_kyYsExXByLh2281MMfi0QvZJF5epEUxbk" class="btn see-more-btn"> <img src="img/taylor/rep.jpg" alt=""></a>
+                        <a href="https://www.youtube.com/playlist?list=OLAK5uy_kyYsExXByLh2281MMfi0QvZJF5epEUxbk"> <img src="img/taylor/rep.jpg" alt=""></a>
                     </div>
                     <div class="event-text">
                         <a href="https://www.youtube.com/playlist?list=OLAK5uy_kyYsExXByLh2281MMfi0QvZJF5epEUxbk" class="btn see-more-btn"><h4>Reputation</h4></a>
@@ -175,7 +203,7 @@
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="single-event-area mb-30">
                     <div class="event-thumbnail">
-                        <a href="https://www.youtube.com/playlist?list=OLAK5uy_lglIKPOFCG5X9_Rf4Hxsmmh9GEeHL94Jo" class="btn see-more-btn"> <img src="img/taylor/1989.jpg" alt=""></a>
+                        <a href="https://www.youtube.com/playlist?list=OLAK5uy_lglIKPOFCG5X9_Rf4Hxsmmh9GEeHL94Jo"> <img src="img/taylor/1989.jpg" alt=""></a>
                     </div>
                     <div class="event-text">
                         <a href="https://www.youtube.com/playlist?list=OLAK5uy_lglIKPOFCG5X9_Rf4Hxsmmh9GEeHL94Jo" class="btn see-more-btn"><h4>1989</h4></a>
@@ -187,7 +215,7 @@
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="single-event-area mb-30">
                     <div class="event-thumbnail">
-                        <a href="https://www.youtube.com/playlist?list=OLAK5uy_mkMwzkw7xgYm3TTF_18a5qjEAc7HEAzuQ" class="btn see-more-btn">  <img src="img/taylor/red.jpg" alt=""> </a>
+                        <a href="https://www.youtube.com/playlist?list=OLAK5uy_mkMwzkw7xgYm3TTF_18a5qjEAc7HEAzuQ">  <img src="img/taylor/red.jpg" alt=""> </a>
 
                     </div>
                     <div class="event-text">
@@ -200,7 +228,7 @@
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="single-event-area mb-30">
                     <div class="event-thumbnail">
-                        <a href="https://www.youtube.com/playlist?list=OLAK5uy_kpg7xzIZ2y7-eZed6kuLgU_9izk9z74JU" class="btn see-more-btn"><img src="img/taylor/speak.jpg" alt=""></a>
+                        <a href="https://www.youtube.com/playlist?list=OLAK5uy_kpg7xzIZ2y7-eZed6kuLgU_9izk9z74JU"><img src="img/taylor/speak.jpg" alt=""></a>
                     </div>
                     <div class="event-text">
                         <a href="https://www.youtube.com/playlist?list=OLAK5uy_kpg7xzIZ2y7-eZed6kuLgU_9izk9z74JU" class="btn see-more-btn"><h4>Speak Now</h4></a>
@@ -212,7 +240,7 @@
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="single-event-area mb-30">
                     <div class="event-thumbnail">
-                        <a href="https://www.youtube.com/playlist?list=OLAK5uy_n4kTPU8sB-vkL_W3p4IzguOP5BWhJunxU" class="btn see-more-btn"><img src="img/taylor/fearless.jpg" alt=""></a>
+                        <a href="https://www.youtube.com/playlist?list=OLAK5uy_n4kTPU8sB-vkL_W3p4IzguOP5BWhJunxU"><img src="img/taylor/fearless.jpg" alt=""></a>
                     </div>
                     <div class="event-text">
                         <a href="https://www.youtube.com/playlist?list=OLAK5uy_n4kTPU8sB-vkL_W3p4IzguOP5BWhJunxU" class="btn see-more-btn"><h4>Fearless</h4></a>
@@ -224,7 +252,7 @@
              <div class="col-12 col-md-6 col-lg-4">
                 <div class="single-event-area mb-30">
                     <div class="event-thumbnail">
-                        <a href="https://www.youtube.com/watch?v=GkD20ajVxnY&list=OLAK5uy_lJwzwxyNv7m0OZyURM5L1bw7SKX7si190" class="btn see-more-btn"> <img src="img/taylor/TaylorSwiftAlbum.jpg" alt=""></a>
+                        <a href="https://www.youtube.com/watch?v=GkD20ajVxnY&list=OLAK5uy_lJwzwxyNv7m0OZyURM5L1bw7SKX7si190"> <img src="img/taylor/TaylorSwiftAlbum.jpg" alt=""></a>
                     </div>
                     <div class="event-text">
                         <a href="https://www.youtube.com/watch?v=GkD20ajVxnY&list=OLAK5uy_lJwzwxyNv7m0OZyURM5L1bw7SKX7si190" class="btn see-more-btn"><h4>Taylor Swift</h4></a>
@@ -239,6 +267,169 @@
     </div>
     
 </section>
+
+    <div class="container">
+        <div class="row">
+
+
+            <!-- ========== Progress Bars & Accordions ========== -->
+            <div class="col-12">
+                <div class="elements-title mb-70">
+                    <h2>Accordians &amp; Tabs</h2>
+                </div>
+            </div>
+
+            <!-- ##### Accordians ##### -->
+            <div class="col-12 col-lg-6">
+                <div class="accordions mb-100" id="accordion" role="tablist" aria-multiselectable="true">
+                    <!-- single accordian area -->
+                    <div class="panel single-accordion">
+                        <h6><a role="button" class="" aria-expanded="true" aria-controls="collapseOne" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Mauris gravida neque augue, euismod ultricies dui sodales ut
+                                <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                                </a></h6>
+                        <div id="collapseOne" class="accordion-content collapse show">
+                            <p>Nam tristique ex vel magna tincidunt, ut porta nisl finibus. Vivamus eu dolor eu quam varius rutrum. Fusce nec justo id sem aliquam fringilla nec non lacus. Suspendisse eget lobortis nisi, ac cursus odio. Vivamus nibh velit, rutrum at ipsum ac, dignissim iaculis ante.</p>
+                        </div>
+                    </div>
+                    <!-- single accordian area -->
+                    <div class="panel single-accordion">
+                        <h6>
+                            <a role="button" class="collapsed" aria-expanded="true" aria-controls="collapseTwo" data-parent="#accordion" data-toggle="collapse" href="#collapseTwo">Pellentesque sit amet velit a libero viverra porta non eu justo
+                                    <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                    <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                                    </a>
+                        </h6>
+                        <div id="collapseTwo" class="accordion-content collapse">
+                            <p>Nam tristique ex vel magna tincidunt, ut porta nisl finibus. Vivamus eu dolor eu quam varius rutrum. Fusce nec justo id sem aliquam fringilla nec non lacus. Suspendisse eget lobortis nisi, ac cursus odio. Vivamus nibh velit, rutrum at ipsum ac, dignissim iaculis ante.</p>
+                        </div>
+                    </div>
+                    <!-- single accordian area -->
+                    <div class="panel single-accordion">
+                        <h6>
+                            <a role="button" aria-expanded="true" aria-controls="collapseThree" class="collapsed" data-parent="#accordion" data-toggle="collapse" href="#collapseThree">Quisque fringilla orci lacus, ut vestibulum nisi interdum in
+                                    <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                    <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                                </a>
+                        </h6>
+                        <div id="collapseThree" class="accordion-content collapse">
+                            <p>Nam tristique ex vel magna tincidunt, ut porta nisl finibus. Vivamus eu dolor eu quam varius rutrum. Fusce nec justo id sem aliquam fringilla nec non lacus. Suspendisse eget lobortis nisi, ac cursus odio. Vivamus nibh velit, rutrum at ipsum ac, dignissim iaculis ante.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ##### Tabs ##### -->
+            <div class="col-12 col-lg-6">
+                <div class="oneMusic-tabs-content">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link" id="tab--1" data-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="false">Mauris gravida neque</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="tab--2" data-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false">Pellentesque sit</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" id="tab--3" data-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="true">Quisque fringilla</a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content mb-100" id="myTabContent">
+                        <div class="tab-pane fade" id="tab1" role="tabpanel" aria-labelledby="tab--1">
+                            <div class="oneMusic-tab-content">
+                                <!-- Tab Text -->
+                                <div class="oneMusic-tab-text">
+                                    <p>Nam tristique ex vel magna tincidunt, ut porta nisl finibus. Vivamus eu dolor eu quam varius rutrum. Fusce nec justo id sem aliquam fringilla nec non lacus. Suspendisse eget lobortis nisi, ac cursus odio. Vivamus nibh velit, rutrum at ipsum ac, dignissim iaculis ante.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab--2">
+                            <div class="oneMusic-tab-content">
+                                <!-- Tab Text -->
+                                <div class="oneMusic-tab-text">
+                                    <p>Nam tristique ex vel magna tincidunt, ut porta nisl finibus. Vivamus eu dolor eu quam varius rutrum. Fusce nec justo id sem aliquam fringilla nec non lacus. Suspendisse eget lobortis nisi, ac cursus odio. Vivamus nibh velit, rutrum at ipsum ac, dignissim iaculis ante.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade show active" id="tab3" role="tabpanel" aria-labelledby="tab--3">
+                            <div class="oneMusic-tab-content">
+                                <!-- Tab Text -->
+                                <div class="oneMusic-tab-text">
+                                    <p>Nam tristique ex vel magna tincidunt, ut porta nisl finibus. Vivamus eu dolor eu quam varius rutrum. Fusce nec justo id sem aliquam fringilla nec non lacus. Suspendisse eget lobortis nisi, ac cursus odio. Vivamus nibh velit, rutrum at ipsum ac, dignissim iaculis ante.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container" id="milestones">
+        <div class="row">
+
+    <!-- ========== Milestones ========== -->
+    <div class="col-12">
+        <div class="elements-title mb-70">
+            <center><h2 style="font-size: 40px;">Milestones</h2></center>
+        </div>
+    </div>
+
+    <div class="col-12">
+        <div class="oneMusic-cool-facts-area">
+            <div class="row">
+
+                <!-- Single Cool Facts -->
+                <div class="col-12 col-sm-6 col-lg-2">
+                    <div class="single-cool-fact mb-100">
+                        <div class="scf-text">
+                            <h2><span class="counter">49.2</span>m</h2>
+                            <p>Monthly Listeners</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Cool Facts -->
+                <div class="col-12 col-sm-6 col-lg-2">
+                    <div class="single-cool-fact mb-100">
+                        <div class="scf-text">
+                            <h2><span class="counter">138.8</span>m</h2>
+                            <p>Followers on Instagram</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Cool Facts -->
+                <div class="col-12 col-sm-6 col-lg-2">
+                    <div class="single-cool-fact mb-100">
+                        <div class="scf-text">
+                            <h2><span class="counter">31.4</span>m</h2>
+                            <p>Followers on Spotify</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Cool Facts -->
+                <div class="col-12 col-sm-6 col-lg-2">
+                    <div class="single-cool-fact mb-100">
+                        <div class="scf-text">
+                            <h2><span class="counter">23</span></h2>
+                            <p>Awards Won</p>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                
+
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
 
 
 
