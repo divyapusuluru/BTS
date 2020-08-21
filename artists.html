@@ -6,6 +6,7 @@
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
@@ -97,6 +98,8 @@
             </div>
         </div>
     </header>
+
+    
     <!-- ##### Header Area End ##### -->
 
     <!-- ##### Breadcumb Area Start ##### -->
@@ -107,7 +110,87 @@
         </div>
     </section>
     <!-- ##### Breadcumb Area End ##### -->
+<!-------------------------------------------------------------------------------------------->
+<style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    #myInput {
+      background-image: url('/css/searchicon.png');
+      background-position: 10px 12px;
+      background-repeat: no-repeat;
+      width: 100%;
+      font-size: 16px;
+      padding: 12px 20px 12px 40px;
+      border: 1px solid #ddd;
+      margin-bottom: 12px;
+    }
+    
+    #myUL {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    #myUL li a {
+      border: 1px solid #ddd;
+      margin-top: -1px; /* Prevent double borders */
+      background-color: #f6f6f6;
+      padding: 12px;
+      text-decoration: none;
+      font-size: 18px;
+      color: black;
+      display: block
+    }
+    
+    #myUL li a:hover:not(.header) {
+      background-color: #eee;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <h2>My Phonebook</h2>
+    
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+    
+    <ul id="myUL">
+      <li><a href="#">Adele</a></li>
+      <li><a href="#">Agnes</a></li>
+    
+      <li><a href="#">Billy</a></li>
+      <li><a href="#">Bob</a></li>
+    
+      <li><a href="#">Calvin</a></li>
+      <li><a href="#">Christina</a></li>
+      <li><a href="#">Cindy</a></li>
+    </ul>
+    
+    <script>
+    function myFunction() {
+        var input, filter, ul, li, a, i, txtValue;
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("myUL");
+        li = ul.getElementsByTagName("li");
+        for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByTagName("a")[0];
+            txtValue = a.textContent || a.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                li[i].style.display = "";
+            } else {
+                li[i].style.display = "none";
+            }
+        }
+    }
+    </script>
 
+
+
+
+
+<!--------------------------------------------------------------------------------------------->
     <!-- ##### Album Catagory Area Start ##### -->
     <section class="album-catagory section-padding-100-0" id="artists">
         <div class="container">
@@ -145,6 +228,7 @@
                     </div>
                 </div>
             </div>
+            <ul id="myUL">
         <div class="row oneMusic-albums">
 
             <div class="oneMusic-buy-now-area mb-100">
@@ -425,6 +509,7 @@
                         </div>
                     </div>
                 </div>
+            </ul>
 
                 
                 <!-- Single Album Area -->
@@ -889,7 +974,7 @@
                             <img src="img/artists/martin.jpg" alt="">
                         </div>
                         <div class="album-info">
-                            <a href="#">
+                            <a href="martin-garrix.html">
                                 <h5>martin garrix</h5>
                             </a>
                             <p></p>
